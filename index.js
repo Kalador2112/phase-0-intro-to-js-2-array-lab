@@ -61,7 +61,7 @@ beforeEach(function () {
 function prependCat() {
     const copyOfCatsTwo = ["Arnold", ...cats]
     return copyOfCatsTwo
-  }
+ }
   beforeEach(function () {
     cats.length = 0;
   
@@ -72,7 +72,7 @@ function prependCat() {
   function removeLastCat() {
     const slicedCats = cats.slice(0, -1)
     return slicedCats
-  }
+ }
   beforeEach(function () {
     cats.length = 0;
   
@@ -83,4 +83,4 @@ function prependCat() {
   function removeFirstCat() {
     const slicedFirstCats = cats.slice(1)
     return slicedFirstCats
-  }
+ }
